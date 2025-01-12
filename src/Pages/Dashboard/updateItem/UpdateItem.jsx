@@ -26,7 +26,7 @@ const UpdateItem = () => {
     const [menuItem, setMenuItem] = useState({})
 
     useEffect(() =>{
-        axios.get(`http://localhost:5000/menu/${id}`)
+        axios.get(`https://y-mxuzfwrbr-zahid123s-projects.vercel.appmenu/${id}`)
         
         .then(res =>{
           console.log(res.data)
